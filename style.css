@@ -1,0 +1,76 @@
+* {
+  font-family: "Roboto", sans-serif;
+  line-height: 23px;
+}
+
+nav {
+  background-color: #343a40;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-start;
+  height: 3.2em;
+  align-items: center;
+}
+
+nav > h1 {
+  margin: 0 0 0 2%;
+  font-size: 1.2em;
+}
+
+nav > a,
+a:active {
+  text-decoration: none;
+  color: #ffffff !important;
+  font-size: 0.9em;
+}
+
+.content-portfolio {
+  background-color: #e9ecef;
+  color: #212529;
+  margin-bottom: 3%;
+}
+
+.content-portfolio-items {
+  padding: 8% 0 6% 6%;
+}
+
+.content-portfolio-items > h1 {
+  font-size: 5em;
+  line-height: 1.5em;
+}
+
+.content-portfolio-items > p {
+  width: 75%;
+}
+
+.portfolio-table {
+  overflow-x: auto;
+}
+
+table {
+    margin-top: 3%;
+}
+
+footer {
+    background-color: #F5F5F5;
+    color: #6C757D;
+    padding: 1%;
+    display: flex;
+    margin-top: 5%;
+}
+
+footer > p {
+    padding-top: 1%;
+    margin-left: 6%;
+    align-self: center;
+}
+
+@media screen and (max-width: 768px){
+    .content-portfolio-items > h1{
+        font-size: 3em;
+    }
+
+    .card {
+        margin-top: 3%;
+    }
+}
